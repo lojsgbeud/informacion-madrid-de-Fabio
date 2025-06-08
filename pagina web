@@ -1,0 +1,186 @@
+YPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información sobre Madrid</title>
+    <!-- Carga de Tailwind CSS para un diseño moderno y responsive -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Define la fuente Inter para todo el documento */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Un color de fondo suave */
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+        h1, h2 {
+            color: #1e3a8a; /* Azul oscuro para los títulos */
+            font-weight: bold;
+        }
+        h1 {
+            font-size: 3rem;
+            text-align: center;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid #bfdbfe; /* Línea decorativa */
+            padding-bottom: 1rem;
+        }
+        h2 {
+            font-size: 2rem;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            border-left: 5px solid #3b82f6; /* Borde azul para destacar secciones */
+            padding-left: 1rem;
+        }
+        p {
+            margin-bottom: 1rem;
+            text-align: justify;
+        }
+        ul {
+            list-style: disc;
+            margin-left: 20px;
+            margin-bottom: 1rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+        .footer-message {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 2px solid #bfdbfe;
+            color: #6b7280;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+        .fabio-highlight {
+            color: #ef4444; /* Rojo para destacar a Fabio */
+            font-weight: bold;
+        }
+        .section-image {
+            width: 100%;
+            height: 200px; /* Altura fija para uniformidad, se ajusta con object-cover */
+            object-fit: cover; /* Asegura que la imagen cubra el espacio sin distorsionarse */
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        /* Media queries para responsividad */
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                border-radius: 8px;
+            }
+            h1 {
+                font-size: 2.2rem;
+            }
+            h2 {
+                font-size: 1.6rem;
+                margin-top: 2rem;
+            }
+            .footer-message {
+                font-size: 1rem;
+            }
+            .section-image {
+                height: 150px; /* Ajusta la altura en móviles */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Madrid: La Capital de España</h1>
+
+        <p>Madrid, la vibrante capital de España, es una ciudad que fusiona a la perfección su rica historia con una modernidad dinámica. Situada en el corazón de la Península Ibérica, Madrid es un epicentro cultural, artístico y económico que atrae a millones de visitantes cada año. Desde sus impresionantes museos y palacios históricos hasta sus bulliciosas plazas y animada vida nocturna, Madrid ofrece una experiencia inolvidable para todos.</p>
+
+        <h2>Historia y Patrimonio</h2>
+        <p>La historia de Madrid se remonta a la época del dominio musulmán, aunque su verdadero crecimiento comenzó en el siglo XVI cuando Felipe II la designó como capital del imperio. Este legado se refleja en su arquitectura y sus monumentos:</p>
+        
+        <img src="https://placehold.co/800x200/94a3b8/ffffff?text=Palacio+Real" alt="Image of Palacio Real" class="section-image">
+        <ul>
+            <li><strong>Palacio Real:</strong> La residencia oficial de la Familia Real Española, un imponente edificio que es uno de los palacios más grandes de Europa.</li>
+        </ul>
+
+        <img src="https://placehold.co/800x200/94a3b8/ffffff?text=Plaza+Mayor" alt="Image of Plaza Mayor" class="section-image">
+        <ul>
+            <li><strong>Plaza Mayor:</strong> Un emblemático espacio porticado que ha sido testigo de eventos históricos, ceremonias reales y mercados populares a lo largo de los siglos.</li>
+        </ul>
+
+        <img src="https://placehold.co/800x200/94a3b8/ffffff?text=Puerta+del+Sol" alt="Image of Puerta del Sol" class="section-image">
+        <ul>
+            <li><strong>Puerta del Sol:</strong> El kilómetro cero de las carreteras radiales de España y uno de los puntos de encuentro más famosos de la ciudad, especialmente durante la Nochevieja.</li>
+        </ul>
+
+        <img src="https://placehold.co/800x200/94a3b8/ffffff?text=Templo+de+Debod" alt="Image of Templo de Debod" class="section-image">
+        <ul>
+            <li><strong>Templo de Debod:</strong> Un antiguo templo egipcio donado a España, que ofrece espectaculares puestas de sol en el Parque del Oeste.</li>
+        </ul>
+
+        <h2>Arte y Cultura</h2>
+        <p>Madrid es un destino de primer orden para los amantes del arte, albergando algunos de los museos más importantes del mundo:</p>
+
+        <img src="https://placehold.co/800x200/60a5fa/ffffff?text=Museo+del+Prado" alt="Image of Museo del Prado" class="section-image">
+        <ul>
+            <li><strong>Museo del Prado:</strong> Hogar de una de las colecciones de arte más importantes del mundo, con obras maestras de Velázquez, Goya y El Greco.</li>
+        </ul>
+
+        <img src="https://placehold.co/800x200/60a5fa/ffffff?text=Museo+Reina+Sofía" alt="Image of Museo Reina Sofía" class="section-image">
+        <ul>
+            <li><strong>Museo Reina Sofía:</strong> Dedicado al arte moderno y contemporáneo, con la icónica obra "Guernica" de Picasso.</li>
+        </ul>
+
+        <img src="https://placehold.co/800x200/60a5fa/ffffff?text=Museo+Thyssen" alt="Image of Museo Thyssen-Bornemisza" class="section-image">
+        <ul>
+            <li><strong>Museo Thyssen-Bornemisza:</strong> Complementa las colecciones del Prado y el Reina Sofía, ofreciendo un recorrido por la historia del arte desde el siglo XIII hasta el XX.</li>
+        </ul>
+        
+        <img src="https://placehold.co/800x200/60a5fa/ffffff?text=Barrio+de+las+Letras" alt="Image of Barrio de las Letras" class="section-image">
+        <ul>
+            <li><strong>Barrio de las Letras:</strong> Un encantador distrito que fue el hogar de escritores del Siglo de Oro español como Cervantes y Lope de Vega.</li>
+        </ul>
+
+        <h2>Gastronomía</h2>
+        <p>La cocina madrileña es una deliciosa mezcla de tradición y vanguardia. No puedes irte sin probar:</p>
+
+        <img src="https://placehold.co/800x200/dc2626/ffffff?text=Bocadillo+de+Calamares" alt="Image of Bocadillo de Calamares" class="section-image">
+        <ul>
+            <li><strong>Bocadillo de calamares:</strong> Un clásico imprescindible en la Plaza Mayor.</li>
+        </ul>
+
+        <img src="https://placehold.co/800x200/dc2626/ffffff?text=Cocido+Madrileño" alt="Image of Cocido Madrileño" class="section-image">
+        <ul>
+            <li><strong>Cocido Madrileño:</strong> Un contundente guiso de garbanzos, verduras y carnes.</li>
+        </ul>
+
+        <img src="https://placehold.co/800x200/dc2626/ffffff?text=Patatas+Bravas" alt="Image of Patatas Bravas" class="section-image">
+        <ul>
+            <li><strong>Patatas bravas:</strong> Unas patatas fritas con una salsa picante que no puede faltar en cualquier tapeo.</li>
+        </ul>
+
+        <img src="https://placehold.co/800x200/dc2626/ffffff?text=Churros+con+Chocolate" alt="Image of Churros con Chocolate" class="section-image">
+        <ul>
+            <li><strong>Churros con chocolate:</strong> Ideal para desayunar o merendar, especialmente en invierno.</li>
+        </ul>
+
+        <h2>Vida Nocturna y Entretenimiento</h2>
+        <p>Madrid es famosa por su inigualable vida nocturna, que cobra vida al anochecer. Desde bares de tapas y pubs acogedores hasta discotecas vibrantes que cierran al amanecer, siempre hay algo que hacer. Además, la ciudad cuenta con una amplia oferta de teatros, musicales y conciertos.</p>
+        <p>En resumen, Madrid es una ciudad que lo tiene todo: historia, arte, cultura, gastronomía y una energía contagiosa que invita a explorar y disfrutar cada rincón.</p>
+
+        <p class="footer-message">Gracias por prestar atención. Hecho gracias a <span class="fabio-highlight">Fabio</span>.</p>
+    </div>
+</body>
+</html>
